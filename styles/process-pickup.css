@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #52c54f;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Krona One", sans-serif;
+  padding: 1em;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10em 0;
+  font-family: "Krona One", sans-serif;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Formulir Pengisian Data</title>
+    <link rel="stylesheet" href="../styles/form-pickup.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Formulir Penjemputan</h2>
+      <form action="../src/process-pickup.php" method="post">
+        <label for="nama">Nama:</label>
+        <input type="text" name="nama" required />
+
+        <label for="tanggal">Tanggal:</label>
+        <input type="date" name="tanggal" required />
+
+        <label for="jenis_sampah">Jenis Sampah:</label>
+        <select name="jenis_sampah" required>
+          <option value="Basah">Basah</option>
+          <option value="Kering">Kering</option>
+        </select>
+
+        <label for="jenis_kendaraan">Jenis Kendaraan:</label>
+        <select name="jenis_kendaraan" required>
+          <option value="Truck">Truck</option>
+          <option value="Amroll">Amroll</option>
+        </select>
+
+        <label for="alamat">Alamat:</label>
+        <textarea name="alamat" required></textarea>
+
+        <input type="hidden" name="action" id="action" value="" />
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+
+    <script src="../script/process.js"></script>
+  </body>
+</html>

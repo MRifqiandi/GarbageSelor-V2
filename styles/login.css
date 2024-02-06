@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* utils */
+button {
+  padding: 0.7em 6.9em;
+  border-radius: 7px;
+  background-color: #ffffff;
+  border: none;
+  font-weight: bold;
+}
+
+input {
+  width: 17em;
+  height: 2.8em;
+
+  border: 2px solid #ffffff;
+  /* opacity: 0; */
+  background-color: transparent;
+}
+
+input::placeholder {
+  color: #ffffff;
+  opacity: 0.8;
+}
+
+h1 {
+  font-family: "Krona One", sans-serif;
+}
+
+.h3 {
+  color: #ffffff;
+  word-spacing: 2px;
+  opacity: 0.8;
+  font-weight: 300;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 54px;
+  padding: 2em;
+}
+
+.main-title {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 1em;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-input {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+
+form {
+  padding: 3em;
+  background-color: #0cb062;
+  border-radius: 7px;
+}
+
+.main-input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+  padding-bottom: 2.1em;
+  padding-top: 1em;
+}
+
+.main_content_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
